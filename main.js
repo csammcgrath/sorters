@@ -16,7 +16,7 @@ function sortPerf() {
         });
     });
 
-    return results.sort((a, b) => a.time - b.time);;
+    return results.sort((a, b) => a.time - b.time);
 }
 
 function display(results) {
